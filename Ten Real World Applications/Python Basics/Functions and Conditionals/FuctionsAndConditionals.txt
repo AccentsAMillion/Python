@@ -1,0 +1,31 @@
+Summary: Functions and Conditionals
+In this section you learned to:
+
+To define a function:
+def cube_volume(a):
+    return a * a * a
+To write a conditional block:
+message = "hello there"
+
+if "hello" in message:
+    print("hi")
+else:
+    print("I don't understand")
+To write a conditional block of multiple conditions:
+message = "hello there"
+
+if "hello" in message:
+    print("hi")
+elif "hi" in message:
+    print("hi")
+elif "hey" in message:
+    print("hi")
+else:
+    print("I don't understand")
+To check if a value is of a certain typewith:
+isinstance("abc", str)
+isinstance([1, 2, 3], list)
+or
+
+type("abc") == str
+type([1, 2, 3]) == lst
